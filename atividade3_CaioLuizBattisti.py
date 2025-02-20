@@ -5,5 +5,5 @@ while True:
     soma += num
     continuar =input("Deseja adicionar ultro numero? (s/n)").strip().lower()
     if continuar != 's':
-        break
-    print("")
+        print("O total da soma é: ",(soma))
+    break
