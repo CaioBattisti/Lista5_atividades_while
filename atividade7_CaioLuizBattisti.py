@@ -7,8 +7,11 @@
 numeros = []
 while True:
     num =int(input("Digite um numero: "))
-    numeros.append(num)
-    if num == 0:
+    if num not in numeros:
+        numeros.append(num)
+    elif num == 0:
         print("O total dos numero sao: ",numeros)
         print("CAIOLUIZBATTISTI")
         break
+
+    
