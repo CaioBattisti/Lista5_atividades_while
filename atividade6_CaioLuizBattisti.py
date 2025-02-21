@@ -6,8 +6,11 @@ while True:
     numero=int(input("Digite um numero entre 15 e 20: "))
     if numero < 15:
         print("numero muito baixo! Tente de novo.")
+        print("CAIOLUIZBATTISTI")
     elif numero > 20:
         print("numero muito alto! Tente de novo.")
+        print("CAIOLUIZBATTISTI")
     else:
         print("Obrigado")
+        print("CAIOLUIZBATTISTI")
         break
