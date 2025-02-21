@@ -4,3 +4,10 @@
 #ou seja valores repetidos não são aceitos. 
 #Se um valor repetido for digitado, o programa deve exibir uma mensagem na tela. 
 #Ao final exiba a lista e a quantidade de elementos que ela contém.
+numeros = []
+while True:
+    num =int(input("Digite um numero: "))
+    numeros.append(num)
+    if num == 0:
+        print("O total dos numero sao: ",numeros)
+        break
