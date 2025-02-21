@@ -12,4 +12,5 @@ while True:
         print("palpite muito alto! Tente novamente")
     else:
         print("Parabens! Voce acertou o numero em",tentativas,"tentativas!")
+        print("CAIOLUIZBATTISTI")
         break
