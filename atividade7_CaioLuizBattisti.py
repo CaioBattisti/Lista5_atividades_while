@@ -10,4 +10,5 @@ while True:
     numeros.append(num)
     if num == 0:
         print("O total dos numero sao: ",numeros)
+        print("CAIOLUIZBATTISTI")
         break
