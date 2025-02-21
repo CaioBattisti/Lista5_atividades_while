@@ -8,4 +8,5 @@ while True:
     continuar =input("voce deseja convidar outra pessoa? (s/n): ").strip().lower()
     if continuar != "s":
         print("O total de convidados é:",convidados)
+        print("CAIOLUIZBATTISTI")
         break
