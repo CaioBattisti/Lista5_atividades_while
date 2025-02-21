@@ -8,4 +8,4 @@ while True:
     continuar =input("Deseja adicionar outro numero? (s/n)").strip().lower()
     if continuar != 's':
         print("O total da soma é: ",(soma))
-    break
+        break
