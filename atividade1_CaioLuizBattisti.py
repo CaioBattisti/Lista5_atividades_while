@@ -7,3 +7,4 @@ while total < 50:
     total += numero
     print("Soma atual: ",total)
 print("o total é: ",total)
+print("CAIOLUIZBATTISTI")
